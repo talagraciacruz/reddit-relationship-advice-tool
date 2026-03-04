@@ -31,8 +31,8 @@ export default {
   },
 
   rateLimit: {
-    minDelayMs: 500,
-    maxDelayMs: 1500,
+    minDelayMs: 5000,
+    maxDelayMs: 10000,
     timeoutMs: 20000,
   },
 };

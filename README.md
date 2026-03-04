@@ -54,7 +54,7 @@ All responses are authored by the account holder. The tool is purely a delivery 
 
 - Respects Reddit's rate limits (100 QPM for OAuth)
 - Implements exponential backoff on 429/5xx
-- Randomised delay between requests (500-1500ms)
+- Randomised delay between requests (5-10s)
 - Custom User-Agent per Reddit guidelines
 
 ## File Structure
